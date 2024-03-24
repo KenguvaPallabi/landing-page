@@ -1,0 +1,96 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  /* Body styles */
+  body {
+    font-family: Arial, sans-serif;
+  }
+  
+  /* Header styles */
+  header {
+    background-color: #333333;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  header nav ul {
+    list-style: none;
+  }
+  
+  header nav ul li {
+    display: inline;
+    margin-right: 20px;
+  }
+  
+  header nav ul li a {
+    color: #fafafa;
+    text-decoration: none;
+  }
+  
+  /* Hero section styles */
+  .hero {
+    background-image: url('hero.jpg');
+    background-size: cover;
+    color: #6a125a;
+    text-align: center;
+    padding: 100px 0;
+  }
+  
+  .hero h2 {
+    font-size: 3em;
+    margin-bottom: 20px;
+  }
+  
+  .hero p {
+    font-size: 1.2em;
+    margin-bottom: 30px;
+  }
+  
+  .btn {
+    background-color: #41013b;
+    color: #fbfcfc;
+    padding: 10px 20px;
+    border-radius: 5px;
+    text-decoration: none;
+  }
+  
+  .btn:hover {
+    color:#060606;
+    background-color: #f4d108;
+  }
+  
+  /* Destinations section styles */
+  .destinations {
+    padding: 50px 0;
+    text-align: center;
+  }
+  
+  .destination {
+    display: inline-block;
+    width: 30%;
+    margin: 0 1.5%;
+    text-align: left;
+    vertical-align: top;
+    padding: 50px;
+    background-color: #ee8ece;
+    border-radius: 7px;
+  }
+  
+  .destination img {
+    width: 100%;
+    border-radius: 3px;
+  }
+  
+  .destination h3 {
+    margin-top: 10px;
+  }
+  footer {
+    background-color: #650167;
+    color: #f19ad0;
+    text-align: center;
+    padding: 20px 0;
+  }
